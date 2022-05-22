@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4399c25e_002D8d50_002D43a4_002Da723_002D1c9462186db8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Getting_Time_From_Json_Data_Property" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::4978B064-36C9-4E05-9B33-0EE4BE5622BD::net6.0::UnitTestZadankoRekrutacyjne.Tests.Getting_Time_From_Json_Data_Property&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::4978B064-36C9-4E05-9B33-0EE4BE5622BD::net6.0::UnitTestZadankoRekrutacyjne.Tests.Getting_Available_Time_Zones_List&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::4978B064-36C9-4E05-9B33-0EE4BE5622BD::net6.0::UnitTestZadankoRekrutacyjne.HomeControllerUnitTests.Index_As_ViewResult&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Rekrutacyjne/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=Zadanko/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

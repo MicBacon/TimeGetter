@@ -1,0 +1,25 @@
+@using ZadankoRekrutacyjne.Models
+@model ZadankoRekrutacyjne.Models.WorldTimeModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Main.cshtml";
+}
+
+@if (Model.IsInvalidInput)
+{
+    <h2>Your input time zone is invalid. Select one from the list:</h2>
+    <div class="list-container">
+        <ul class="u-list border-top border-start">
+            @foreach (var tz in Model.GetTimeZonesList()!)
+            {
+                <li>@tz</li><br>
+            }
+        </ul>
+    </div>
+}else if (!Model.IsApiAvailable)
+{
+    <h1>@WorldTimeModel.GetApiNotAvailableErrorMessage()</h1>
+}else
+{
+    <h1>Current time in @Model.RequestedTimeZone is: @Model.GetTime()</h1>
+}
